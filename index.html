@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jeffery's Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="project3.css">
+</head>
+<body>
+<!-- header -->
+<div class="name p-5 text-dark text-center">
+  <h1 class="text-popout">Jeffery Qiu</h1>
+  <!-- Carousel -->
+  <div class="carousel slide d-block mx-auto" data-bs-ride="carousel" style="width:50%" id=slideshow>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <p>"Nothing is impossible, the word itself says 'I'm possible'!" </p>
+      </div>
+      <div class="carousel-item">
+        <p>"Put your heart, mind, and soul into even your smallest acts. This is the secret of Success." </p>
+      </div>
+      <div class="carousel-item">
+        <p>"If opportunity doesn't knock. Build a door."</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Nav Tabs -->
+<nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
+  <!-- Create a hamburger button to control the collapsible tab -->
+  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapseTab" aria-control="collapseTab"
+  aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="collapseTab">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Jeffery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Web Technology Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#activities">Class Activities</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Jeffery</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- body content -->
+<div class="container mt-5">
+  <div class="row">
+    <!-- Intro Image -->
+    <div class="col-md-5 col-lg-4">
+      <h2 class="subtitle">Jeffery Qiu</h2>
+      <div class="introImage text-center">
+        <img src="images/java.png" alt="Image of Java" title="Programming" class="rounded-circle">
+      </div>
+      <p class="major">Future Computer Programmer</p>
+      <i class="department">Department of Computer Science</i>
+    </div>
+    <!-- Intro Paragraph -->
+    <div class="col-md-7 col-lg-8 mt-5">
+      <h2>About Me</h2>
+      <p>Hello, my name is Jeffery Qiu and I aspire to become a <b>Software Developer</b>. I am currently enrolled
+      at QCC to get my associates degree then transfer colleges. I plan to transfer to either
+    Stonybrook or Binghamton. </p>
+    </div>
+  </div>
+</div>
+<!-- Class Projects -->
+<div class="cactivity mt-5 p-2 text-white text-center">
+  <p style="font-size:1.5em; padding:5px;" id=projects><b>Web Technology Projects</b></p>
+</div>
+
+<div class="container-fluid row" style="margin:2em;">
+  <div class="card col-lg-6 col-md-6 mx-auto project1img" style="height:500px; width:700px; box-shadow: 5px 5px 5px gray;">
+    <img src="images/londoneye.jpg" alt="Image of London Eye" style="height:500px; width:650px; box-shadow: 3px 3px 5px gray;" class=" card-img-top mx-auto d-block" data-bs-toggle="modal" data-bs-target="#item1">
+    <div class="card-body">
+      <p class="card-text" style="text-align:center; font-weight:bold;">HTML Project: Exploring London</p>
+    </div>
+  </div>
+  <div class="card col-lg-6 col-md-6 mx-auto project2img" style="height:500px; width:700px; box-shadow: 5px 5px 5px gray;">
+    <img src="images/asianhate.jpeg" alt="Image of AAPI" style="height:500px; width:650px; box-shadow: 3px 3px 5px gray;" class=" card-img-top mx-auto d-block" data-bs-toggle="modal" data-bs-target="#item2">
+    <div class="card-body">
+      <p class="card-text" style="text-align:center; font-weight:bold;">HTML and CSS Project: Stop Asian Hate</p>
+    </div>
+  </div>
+
+</div>
+<!-- cards and carousel -->
+<div class="cactivity mt-5 p-2 text-white text-center">
+  <p style="font-size:1.5em; padding:5px;" id=activities><b>Class Activities</b></p>
+</div>
+
+<div class="container-fluid row" style="margin:1em;">
+  <!-- Card 1 -->
+  <div class="card col-lg-3 col-md-6 cardhtml d-block mx-auto" style="height:700px;">
+    <img src="images/html.png" alt="Image of Html" title="HTML" style="width:50%;" class="d-block mx-auto">
+    <div class="card-body">
+      <h4>HTML</h4>
+      <h5>Class Activities</h5>
+      <p>We learned to create a website base using only HTML at the start of the course.</p>
+      <hr>
+      <p style='padding:0.5em;'><a href="files/htmlbasic/activity2.html" target="_blank">1. HTML Basics</a></p>
+    </div>
+  </div>
+  <!-- Card 2 -->
+  <div class="card col-lg-3 col-md-6 cardhtml d-block mx-auto" style="height:700px;">
+    <img src="images/css.png" alt="Image of Css" title="CSS" style="width:50%;" class="d-block mx-auto">
+    <div class="card-body">
+      <h4>CSS</h4>
+      <h5>Class Activities</h5>
+      <p>Once we had established the fundamentals of HTML we were then introduced to CSS and how we could
+      use it to style elements.</p>
+      <hr>
+      <p style='padding:0.5em;'><a href="files/colorandimg/colors.html" target="_blank">1. Color and Images</a></p>
+      <hr>
+      <p style='padding:0.5em;'><a href="files/cssanimation/animation.html" target="_blank">2. Animation</a></p>
+      <hr>
+      <p style='padding:0.5em;'><a href="files/responsive/responsive.html" target="_blank">3. Responsive Webpage</a></p>
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="card col-lg-3 col-md-6 cardhtml d-block mx-auto" style="height:700px;">
+    <img src="images/bootstrap.png" alt="Image of Bootstrap" title="Bootstrap" style="width:50%;;" class="d-block mx-auto">
+    <div class="card-body">
+      <h4>Bootstrap 5</h4>
+      <h5>Class Activities</h5>
+      <p>Bootstrap is the most popular HTMl, CSS, and JavasScript framework for developing
+        responsive, mobile-first websites.</p>
+        <hr>
+        <p style='padding:0.5em;'><a href="files/infosite/activity7.html" target="_blank">1. Basic Informative Webpage</a></p>
+        <hr>
+        <p style='padding:0.5em;'><a href="files/slideshow/slideshow.html" target="_blank">2. Carousel/Slideshow</a></p>
+        <hr>
+        <p style='padding:0.5em;'><a href="files/modal/modal.html" target="_blank">3. Modal Window in Sales</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Windows -->
+<div class="modal" id="item1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal header -->
+      <div class="modal-header">
+        <div class="modal-title">
+          <p>HTML Project: Exploring London</p>
+        </div>
+        <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <img src="images/londoneye.jpg" alt="Image Of London Eye" style="width:70%;" class="d-block mx-auto">
+        <div>
+          <p>Project 1 Consists in creating an informative website. The information of the
+          website is about a place (city, country, or state) where you want to inform people
+          about that place. In your website you should have to present four pieces information about the place such as: </p>
+          <ul>
+            <li style="text-align:left;">Why London is a famous place</li>
+            <li style="text-align:left;">Activites to do in London</li>
+            <li style="text-align:left;">Important details and locations in London</li>
+            <li style="text-align:left;">Photos of London</li>
+          </ul>
+          <a href="files/Project1/index.html" target="blank">Visit my London Project</a>
+        </div>
+      </div>
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="item2">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal header -->
+      <div class="modal-header">
+        <div class="modal-title">
+          <p>HTML and CSS Project: Stop Asian Hate</p>
+        </div>
+        <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <img src="images/asianhate.jpeg" alt="Image Of London Eye" style="width:70%;" class="d-block mx-auto">
+        <div>
+          <p>This project consists of students creating graphic memories using web Technology.
+          This graphic memory has the purpose of self-reflecting on the diffictulties that each Technological Engineering student
+          has or is facing with discrimination of any kind. It can also illustrate the process that each student is going through
+          to overcome difficulties in his/her personal and professional development.</p>
+          <a href="files/Project2/index.html" target="blank">Visit Stop Asian Hate Project</a>
+        </div>
+      </div>
+      <!-- Modal Footer -->
+      <div class="modal-footer">
+        <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Footer -->
+
+<footer class="footer row mt-5 p-2 text-white text-center" id=contact>
+
+    <div class="col-lg-3">
+      <p><span style="color:gray;">Phone Number</span> <br> 718-323-3294 </p>
+    </div>
+
+    <div class="col-lg-3">
+      <p><span style="color:gray;">Email</span> <br> <a href="mailto:jefferyqiu1@gmail.com">Jefferyqiu1@gmail.com</a></p>
+    </div>
+
+    <div class="col-lg-3">
+      <p><span style="color:gray;">Address</span> <br> <a href="https://goo.gl/maps/16T9wS9keDKPrfAa7" target="blank">Queensborough Community College</a></p>
+    </div>
+
+    <div class="col-lg-3">
+      <p><span style="color:gray;">Office</span> <br> </p>
+    </div>
+    <hr class="d-block mx-auto" style=" width:85%;height:10px; background:white; font-weight:bold; margin-top:2em;">
+    <!-- Social Media -->
+    <div class="social col-lg-6 mt-5"></div>
+    <div class="social col-lg-6">
+      <h5>Follow Me</h5>
+      <br>
+      <a href="https://discord.com/" target="blank"><img src="icons/dc.png" alt="Image of Discord" style="width:5%; margin:1em;"></a>
+      <a href="https://www.instagram.com/" target="blank"><img src="icons/insta.png" alt="Image of Instagram" style="width:5%; margin:1em;"><a>
+      <a href="https://twitter.com/" target="blank"><img src="icons/twitter.png" alt="Image of Twitter" style="width:5%; margin:1em;"></a>
+      <a href="https://www.facebook.com/" target="blank"><img src="icons/fb.png" alt="Image of Facebook" style="width:5%; margin:1em;"></a>
+    </div>
+    <!-- Copyright -->
+    <div class="col-lg-12 mt-3">
+      <p>Project 3 Portfolio @2022 by Jeffery Qiu <br> This webpage is a template to createa  portfolio website. All information and materials
+      used are only for educational purpose</p>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>

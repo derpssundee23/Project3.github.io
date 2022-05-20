@@ -1,0 +1,137 @@
+.title {
+  background-color: rgb(23,124,158);
+  text-align: center;
+  color: white;
+  padding: 12px 0px;
+}
+span {
+  font-size:100px;
+  font-weight: 800;
+  font-family: "Product Sans";
+}
+.google1, .google4 {
+  color: rgb(66, 133, 244);
+}
+.google2, .google6 {
+  color: rgb(234, 67, 53);
+}
+.google3 {
+  color: rgb(251, 188, 5);
+}
+.google5 {
+  color: rgb(52, 168, 83);
+}
+.primary, .light, .dark {
+  background-color: #ffb4c9;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+.light {
+  background-color: #ffe7fc;
+}
+.dark {
+  background-color: #cb8498;
+}
+.fig1 {
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img_fig1 {
+  width: 100%;
+
+}
+.p_fig1 {
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  background-color: rgba(110, 110, 110, 0.3);
+  bottom: 5%;
+  left: 7%;
+  right: 7%;
+  padding: 12px;
+  text-align: center;
+}
+/* Stick Position */
+.stickyTop {
+  background-color: rgba(52, 168, 83, 0.5);
+  padding: 1em;
+  font-size: 2em;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  position: sticky;
+  position: -webkit-sticky; /* For mac browsers */
+  top: 0px;
+}
+.heroImage {
+  background-image: linear-gradient(rgba(234, 67, 53, 0.5),rgba(251, 188, 5, 0.5)), url("image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 1280px;
+  height: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.heroTitle {
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  text-align: center;
+  left: 40%;
+  right: 40%;
+  font-size: 50px;
+}
+.heroP {
+  position: absolute;
+  width: 50%;
+  left: 10%;
+  top: 5%;
+  font-size: 20px;
+  font-family: monospace;
+}
+.herop2 {
+  position: absolute;
+  width: 20%;
+  right: 2%;
+  bottom: 1%;
+  font-size: 20px;
+  font-family: monospace;
+}
+/* filters */
+.filtercontainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.filter1, .filter2, .filter3 {
+  width: 300px;
+  height: 220px;
+  margin-left: 20px;
+}
+figcaption {
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+}
+.filter1 {
+  filter: blur(2px);
+}
+.filter2 {
+  filter: sepia(100%);
+}
+.filter3 {
+  filter: invert(100%);
+}
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 11px;
+  border-top: ridge 2px gray;
+  padding: 15px;
+}

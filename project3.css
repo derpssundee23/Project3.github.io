@@ -1,0 +1,80 @@
+:root{
+  --primary: #90caf9;
+  --primaryDark: #5d99c6;
+  --primaryLight: #c3fdff;
+}
+.name {
+  background-color: var(--primary);
+  font-family: "arial black";
+}
+.navbar {
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left: 1em;
+}
+.subtitle {
+  font-family: "monotype corsiva";
+  text-align: center;
+  font-size: 40px;
+}
+.introImage img{
+  width: 200px;
+  height: 200px;
+}
+.major, .department {
+  text-align: center;
+  display: block;
+}
+.cardhtml {
+  box-shadow: 5px 5px 3px gray;
+}
+/* Footer */
+.footer {
+  background-color: var(--primary);
+}
+.cactivity {
+  background-color: var(--primary)
+}
+.project1img img:hover{
+  filter: invert(60%);
+}
+.project2img img:hover{
+  filter: invert(60%);
+}
+a, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+a:hover {
+  color: blue;
+}
+
+.text-popout {
+  animation: 3s popout ease infinite;
+}
+
+@keyframes popout {
+  0% {
+    color: black;
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: var(--primaryDark);
+    transform: scale(1.3);
+    opacity: 1;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0.5);
+  }
+}

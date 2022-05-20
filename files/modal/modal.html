@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Jeffery Qiu - Modal Window</title>
+  </head>
+  <body>
+    <h1 class="bg-secondary text-light" style="text-align: center;padding:1em;font-family: 'monotypecorsiva'">65% Keyboards</h1>
+    <div class="container-fluid row" style="margin:1em;">
+      <!-- card for item 1 -->
+      <div class="card col-lg-3 col-md-5" style="margin:0.5em; height:500px;">
+        <img src="ducky.jpg" alt="Image of Ducky One 2 Mini Keyboard" title="65% Keyboard" style="height:40%; padding:1em;" class="d-block mx-auto">
+        <div class="card-body" style="text-align: center;">
+          <h5>Ducky One 2 Mini</h5>
+          <p style="font-size:0.8em;">65% Keyboard</p>
+          <h3 class="text-danger">$108.00</h3>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#item1">Add to cart</button>
+        </div>
+      </div>
+      <!-- card for item 2 -->
+      <div class="card col-lg-3 col-md-5" style="margin:0.5em; height:500px;">
+        <img src="ducky2.png" alt="Image of Ducky One 3 Mini Daybreak" title="65% Keyboard" style="height:40%; padding:1em;" class="d-block mx-auto">
+        <div class="card-body" style="text-align: center;">
+          <h5>Ducky One 3 Mini Daybreak</h5>
+          <p style="font-size:0.8em;">65% Keyboard</p>
+          <h3 class="text-danger">$119.00</h3>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#item2">Add to cart</button>
+        </div>
+      </div>
+      <!-- card for item 3 -->
+      <div class="card col-lg-3 col-md-5" style="margin:0.5em; height:500px;">
+        <img src="razer.jpg" alt="Razer Huntsman Mini" title="65% Keyboard" style="height:40%; padding:1em;" class="d-block mx-auto">
+        <div class="card-body" style="text-align: center;">
+          <h5>Razer Huntsman Mini</h5>
+          <p style="font-size:0.8em;">65% Keyboard</p>
+          <h3 class="text-danger">$80.00</h3>
+          <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#item3">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Windows -->
+    <!-- Modal Window for Item 1 -->
+    <div class="modal" id="item1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal header -->
+          <div class="modal-header">
+            <div class="modal-title">
+              Added to cart.
+            </div>
+            <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+          </div>
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <img src="ducky.jpg" alt="Image of Ducky One 2 Mini Keyboard" title="65% Keyboard" class="float-start" style="width:50%; padding:1em;">
+            <div style="text-align:center;">
+              <h5>65% Keyboard</h5>
+              <p style="font-size:0.8em;">Ducky One 2 Mini RGB Keyboard <br>(Cherry MX Black)</p>
+              <i style="font-size:0.8em;">Made by Ducky</i>
+              <p class="text-danger" style="font-size:2em; margin-top:1em;"><b>$108.00</b></p>
+              <s>$120</s>
+            </div>
+          </div>
+          <!-- Modal Footer -->
+          <div class="modal-footer">
+            <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Continue Shopping</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Window for Item 2 -->
+    <div class="modal" id="item2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">
+              Added to cart.
+            </div>
+            <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="ducky2.jpg" alt="Image of Ducky One 3 Mini Daybreak" title="65% Keyboard" class="float-start" style="width:50%; padding:1em;">
+            <div style="text-align:center;">
+              <h5>65% Keyboard</h5>
+              <p style="font-size:0.8em;">Ducky One 3 Mini Daybreak <br></p>
+              <i style="font-size:0.8em;">Made by Ducky</i>
+              <p class="text-danger" style="font-size:2em; margin-top:1em;"><b>$119.00</b></p>
+              <s>$140</s>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Window for Item 3 -->
+    <div class="modal" id="item3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">
+              Added to cart.
+            </div>
+            <button type="button" data-bs-dismiss="modal" class="btn-close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="ducky2.jpg" alt="Razer Huntsman Mini" title="65% Keyboard" class="float-start" style="width:50%; padding:1em;">
+            <div style="text-align:center;">
+              <h5>65% Keyboard</h5>
+              <p style="font-size:0.8em;">Razer Huntsman Mini<br></p>
+              <i style="font-size:0.8em;">Made by Razer</i>
+              <p class="text-danger" style="font-size:2em; margin-top:1em;"><b>$80.00</b></p>
+              <s>$140</s>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Finish the other 2 items for activity 10 -->
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>

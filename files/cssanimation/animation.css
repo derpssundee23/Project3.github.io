@@ -1,0 +1,206 @@
+.city {
+    width: 100%;
+    animation: backgroundFilter 2s;
+    animation-delay: 2s;
+}
+.container {
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.text1 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    color: aqua;
+    animation: popout 2s ease-in infinite;
+    animation-delay: 4s;
+    opacity: 0;
+}
+@keyframes backgroundFilter {
+    0%{filter: invert(0%);}
+    25%{filter: invert(75%);}
+    50%{filter: invert(0%);}
+    75%{filter: invert(200%);}
+    100%{filter: invert(0%);}
+}
+@keyframes popout {
+    0% {
+      color: rgb(255, 255, 255);
+      transform: scale(0);
+      opacity: 0.5;
+    }
+    25% {
+      color: rgb(255, 251, 0);
+      transform: scale(2);
+      opacity: 1;
+    }
+    50% {
+      color: rgb(247, 0, 255);
+      transform: scale(1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes imgPop {
+      0% {
+          transform: scale(0);
+          opacity: 0.5;
+      }
+      50% {
+          transform: scale(2.5);
+          opacity: 0.75;
+          
+      }
+      100% {
+          transform: scale(1);
+          opacity: 1;
+      }
+  }
+  .img1 {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      width: 10%;
+      animation: imgPop 2s infinite;
+      animation-delay: 4s;
+      opacity: 0;
+  }
+  @keyframes heartAni {
+      0%{
+          opacity: 1;
+      }
+      25% {
+          opacity: 0;
+      }
+      35% {
+        opacity: 1;
+    }
+      50% {
+        opacity: 0;
+      }
+      65% {
+        opacity: 1;
+      }
+      75% {
+        opacity: 0;
+      }
+      80% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+  }
+  .heart1 {
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      opacity: 0;
+      animation: heartAni 1s infinite;
+      animation-delay: 8s;
+  }
+  .heart2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 5%;
+    opacity: 0;
+    animation: heartAni 5s infinite;
+    animation-delay: 8s;
+}
+  .heart3 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 15%;
+    opacity: 0;
+    animation: heartAni 6s infinite;
+    animation-delay: 8s;
+}
+.heart4 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 25%;
+    opacity: 0;
+    animation: heartAni 2s infinite;
+    animation-delay: 8s;
+}
+.heart5 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 3%;
+    opacity: 0;
+    animation: heartAni 10s infinite;
+    animation-delay: 8s;
+}
+.heart6 {
+    position: absolute;
+    bottom: 20%;
+    left: 25%;
+    width: 7%;
+    opacity: 0;
+    animation: heartAni 7s infinite;
+    animation-delay: 8s;
+}
+.heart7 {
+    position: absolute;
+    bottom: 23%;
+    right: 10%;
+    width: 3%;
+    opacity: 0;
+    animation: heartAni 15s infinite;
+    animation-delay: 8s;
+}
+.heart8 {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+    width: 11%;
+    opacity: 0;
+    animation: heartAni 1s infinite;
+    animation-delay: 8s;
+}
+.heart9 {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 16%;
+    opacity: 0;
+    animation: heartAni 3s infinite;
+    animation-delay: 8s;
+}
+.heart10 {
+    position: absolute;
+    bottom: 27%;
+    left: 10%;
+    width: 13%;
+    opacity: 0;
+    animation: heartAni 4s infinite;
+    animation-delay: 8s;
+}
+.heart11 {
+    position: absolute;
+    bottom: 18%;
+    right: 30%;
+    width: 21%;
+    opacity: 0;
+    animation: heartAni 8s infinite;
+    animation-delay: 8s;
+}
+.heart12 {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    width: 9%;
+    opacity: 0;
+    animation: heartAni 12s infinite;
+    animation-delay: 8s;
+}
